@@ -5,5 +5,8 @@ multilingual = false
 src = "src"
 title = "mdbook github page"
 
+[build]
+build-dir = "../docs"
+
 [output.html]
 mathjax-support = true
