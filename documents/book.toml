@@ -5,11 +5,13 @@ multilingual = false
 src = "src"
 title = "mdbook github page"
 
+[preprocessor.katex]
+
 [build]
 build-dir = "../docs"
 
 [output.html]
-mathjax-support = true
+# mathjax-support = true
 git-repository-url = "https://github.com/MingyiZhang/mdbook-github-page"
 
 [output.html.print]

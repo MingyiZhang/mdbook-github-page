@@ -23,11 +23,11 @@ if __name__ == '__main__':
 
 This is inline code `Set<Integer>`
 
-This is inline math expression \\( \alpha \\)
+This is inline math expression $\alpha$
 
 This is math expression block
 
-\\[
+$$
 \mu = \frac{1}{N} \sum_{i=0} x_i
-\\]
+$$
 
