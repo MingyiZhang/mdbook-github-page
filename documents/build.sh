@@ -1,8 +1,14 @@
 #!/usr/bin/env bash
 
-git branch -D gh-pages
+branch_name="gh-pages"
+branch=$(git branch --list $branch_name)
+
+if [[ -z $branch ]]; then
+  git branch -D gh-pages
+fi
+
 git checkout -b gh-pages
-mdbook build documents --dest-dir ../docs
+mdbook build documents
 git add docs
 git commit -m "Update docs web"
 git push -u origin gh-pages --force
