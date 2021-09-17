@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 git checkout gh-pages
-git merge main
+git merge main --no-edit
 mdbook build documents --dest-dir ../docs
 git add docs
 git commit -m "Update docs web"
