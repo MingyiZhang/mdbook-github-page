@@ -9,7 +9,7 @@ title = "mdbook github page"
 build-dir = "../docs"
 
 [output.html]
-theme = "mytheme"
+theme = "theme"
 mathjax-support = true
 git-repository-url = "https://github.com/MingyiZhang/mdbook-github-page"
 
