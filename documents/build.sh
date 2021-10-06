@@ -2,7 +2,7 @@
 
 latest_tag=$(git describe --abbrev=0 --tags)
 gh_pages="gh-pages"
-pages_tag="$gh_pages:$latest_tag"
+pages_tag="$latest_tag-docs"
 
 git checkout $gh_pages
 git merge main --no-commit --no-ff
